@@ -1,8 +1,10 @@
 """Kattis cold puter problem.
 """
 
-__author__ ="Walker Edwards"
+
+__author__ = "Walker Edwards"
 __date__ = "October 10, 2023"
+
 
 def answer(temps: str) -> int:
     """Finds and returns the number of negative numbers
@@ -18,9 +20,10 @@ def answer(temps: str) -> int:
 def solve() -> None:
     """_summary_
     """
-    n = input()
-    data  = input()
+    # n = input()
+    data = input()
     print(answer(data))
+
 
 if __name__ == "__main__":
     solve()
